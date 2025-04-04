@@ -4,7 +4,6 @@ constructor(nombre, notas, cantMaterias) {
     this.notas = notas;
     this.cantMaterias = cantMaterias;
 }
-
 promedio() {
-    return this.notas / this.cantMaterias;
+    return (this.notas / this.cantMaterias) ;
 }}
